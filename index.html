@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>wf-app</title>
 </head>
+
 <body>
   <h1>wf-app</h1>
   <p id="status">Cargando manifest y fuentes…</p>
@@ -14,6 +15,14 @@
 
   <button id="refresh">Actualizar ahora</button>
 
-  <script src="./app.js"></script>
+  <!-- Carga la lógica principal -->
+  ./app.jsscript>
+
+  <!-- Registra el Service Worker -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js");
+    }
+  </script>
 </body>
 </html>
