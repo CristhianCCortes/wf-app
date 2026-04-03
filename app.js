@@ -10,20 +10,17 @@ async function fetchJson(url) {
   return await r.json();
 }
 
-async function runUpdate() {
+async function run() {
   try {
     statusEl.textContent = "Descargando manifest…";
     const manifest = await fetchJson(MANIFEST_URL);
-
-    statusEl.textContent = "Manifest descargado. Listando fuentes…";
     infoEl.textContent = JSON.stringify(manifest, null, 2);
-
-    statusEl.textContent = "✅ OK: app.js está ejecutándose y lee el manifest.";
+    statusEl.textContent = "✅ OK: manifest descargado.";
   } catch (e) {
     statusEl.textContent = `❌ Error: ${e.message}`;
     console.error(e);
   }
 }
 
-refreshBtn.addEventListener("click", runUpdate);
-runUpdate();
+refreshBtn.addEventListener("click", run);
+run();
