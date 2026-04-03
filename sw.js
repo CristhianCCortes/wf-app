@@ -13,7 +13,7 @@ self.addEventListener("fetch", (event) => {
   // Solo cacheamos recursos del propio wf-app
   if (url.origin === location.origin) {
     event.respondWith((async () => {
-      const cache = await caches.open("wf-app-cache-v1");
+      const cache = await caches.open("wf-app-cache-v2");
       const cached = await cache.match(event.request);
       if (cached) return cached;
       const fresh = await fetch(event.request);
