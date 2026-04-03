@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>wf-app</title>
+</head>
+
+<body>
+  <h1>wf-app</h1>
+  <p id="status">Cargando manifest y fuentes…</p>
+
+  <h2>Fuentes</h2>
+  <pre id="info"></pre>
+
+  <button id="refresh">Actualizar ahora</button>
+
+  ./app.jsscript>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js");
+    }
+  </script>
+</body>
+</html>
