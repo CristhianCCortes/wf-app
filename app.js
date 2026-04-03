@@ -1,5 +1,5 @@
 // 1) PEGA AQUÍ el RAW URL de manifest.json (del paso 1)
-const MANIFEST_URL = "PEGA_AQUI_EL_RAW_URL_DEL_MANIFEST";
+const MANIFEST_URL = "https://raw.githubusercontent.com/CristhianCCortes/wf-data/refs/heads/main/manifest.json";
 
 const statusEl = document.getElementById("status");
 const infoEl = document.getElementById("info");
