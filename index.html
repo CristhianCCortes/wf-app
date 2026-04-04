@@ -4,13 +4,28 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>wf-app</title>
+  <meta name="color-scheme" content="dark" />
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:20px}
+    .muted{color:#6b7280}
+    .ok{color:#16a34a}
+    .bad{color:#dc2626}
+    pre{background:#0b1020;color:#e5e7eb;padding:12px;border-radius:8px;overflow:auto}
+    button{padding:8px 10px;border-radius:8px;border:1px solid #cbd5e1;background:#fff;cursor:pointer}
+  </style>
 </head>
 <body>
   <h1>wf-app</h1>
-  <p id="status">Cargando manifest…</p>
-  <pre id="info"></pre>
+  <p id="status" class="muted">Cargando manifest y fuentes…</p>
 
-  <button id="refresh">Actualizar ahora</button>
+  <div style="display:flex;gap:10px;align-items:center;margin:10px 0">
+    <button id="refresh">Actualizar ahora</button>
+    <span class="muted">|</span>
+    <a href="./app.js" target="_blank" rel="noopener">Ver app.js</a>
+  </div>
+
+  <h2>Fuentes</h2>
+  <pre id="out">(sin datos todavía)</pre>
 
   <script src="./app.js"></script>
 </body>
