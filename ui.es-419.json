@@ -1,0 +1,53 @@
+{
+  "locale": "es-419",
+  "ui": {
+    "appTitle": "wf-app",
+    "reload": "Recargar",
+    "search": "Buscar",
+    "family": "Familia",
+    "source": "Fuente",
+    "results": "Resultados",
+    "totalItems": "Total de ítems",
+    "top20": "Top (primeros 20)"
+  },
+  "families": {
+    "weapons": "Armas",
+    "warframes": "Warframes",
+    "vehicles": "Vehículos",
+    "companions": "Compañeros",
+    "mods": "Mods",
+    "arcanes": "Arcanos",
+    "relics": "Reliquias",
+    "resources": "Recursos",
+    "misc": "Otros"
+  },
+  "sources": {
+    "Primary.json": "Armas primarias",
+    "Secondary.json": "Armas secundarias",
+    "Melee.json": "Armas cuerpo a cuerpo",
+    "Arch-Gun.json": "Arch Cañón",
+    "Arch-Melee.json": "Arch-Melee",
+    "SentinelWeapons.json": "Armas de centinela",
+
+    "Amps.json": "Amps (Operador)",
+    "Zaws.json": "Zaws (modulares)",
+    "Kitguns.json": "Kitguns (modulares)",
+
+    "Warframes.json": "Warframes",
+    "Archwing.json": "Archwing",
+    "Necramechs.json": "Necramechs",
+
+    "Mods.json": "Mods",
+    "Arcanes.json": "Arcanos",
+    "Relics.json": "Reliquias",
+
+    "Sentinels.json": "Centinelas",
+    "Kubrows.json": "Kubrows",
+    "Kavats.json": "Kavats",
+    "MOAs.json": "MOAs",
+    "Hounds.json": "Sabuesos",
+    "Vulpaphylas.json": "Vulpáfilas",
+    "Predasites.json": "Predacitos",
+    "HelminthCharger.json": "Cargador de Helminth"
+  }
+}
