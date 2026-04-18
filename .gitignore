@@ -1,0 +1,21 @@
+
+# === Backups / históricos locales (no versionar) ===
+app.backup_*.js
+app.broken_*.js
+app.legacy_*.js
+app.backup.js
+
+index.backup*.html
+index.backup_*.html
+
+# === Reportes automáticos (no versionar) ===
+reports/
+*.pdf
+*.txt
+
+# === Otros temporales ===
+.DS_Store
+
+# === Backups locales no versionados ===
+local_backup/
+
